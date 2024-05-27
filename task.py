@@ -7,7 +7,7 @@ def never_crash(data: str):
 	except:
 		return 0
 		
-	if number < 0 or number > 100 or degree < 1 or degree > 100  or factor < 0 or factor > 100:
+	if number < 0 or degree < 1 or factor < 0:
 		return 0	
 	
 	number /= 1
